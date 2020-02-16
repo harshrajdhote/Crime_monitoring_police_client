@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_purple"
+    >
+   <TextView android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/request_description"
+       android:maxLines="3"
+       android:padding="20dp"
+       android:textColor="#FFFFFF"
+       android:textSize="20dp"
+
+       ></TextView>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal"
+        android:paddingBottom="10dp">
+       <Button android:id="@+id/view_request"
+           android:layout_height="wrap_content"
+           android:layout_width="100dp"
+           android:text="View"
+           android:layout_marginLeft="23dp"
+           android:textColor="@android:color/background_light"
+           android:background="@android:color/holo_red_light"
+           android:layout_marginRight="15dp"></Button>
+        <Button android:id="@+id/request_accept"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+
+            android:textColor="@android:color/background_light"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/holo_green_dark"></Button>
+        <Button android:id="@+id/request_status"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:text="Status"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/background_light"></Button>
+
+    </LinearLayout>
+    <View android:background="@android:color/darker_gray"
+        android:layout_width = "match_parent"
+        android:layout_height="3dp"/>
+
+</LinearLayout>
